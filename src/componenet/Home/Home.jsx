@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import useData from '../../Hooks/usedata';
 import Banner from '../Banner/Banner';
 import Details from '../Details/Details';
-
+import './Home.css'
 
 // Main home page 
 const Home = () => {

@@ -11,7 +11,7 @@ import Services from './componenet/Services/Services';
 import SignUp from './componenet/SignUp/SignUp';
 import Works from './componenet/Works/Works';
 
-// " antialiased bg-gradient-to-r from-pink-300 via-purple-300 t antialiased bg-gradient-to-r from-pink-300 via-purple-300to-indigo-400"
+//This is the Route components
 function App() {
   return (
     <div className="antialiased bg-gradient-to-r from-blue-500 via-green-300 t antialiased bg-gradient-to-r from-blue-200 via-red-300to-green-800">

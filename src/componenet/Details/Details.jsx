@@ -48,8 +48,8 @@ const Details = (props) => {
                     <div className="my-8 text-center">
                     <Link className="text-2xl bg-red-200 px-16 py-2 text-center monthly text-white hover:bg-indigo-700" to="/payment">Choose your plan</Link>
                     </div>
-                    <div className="text-center my-4">
-                    <Link className="text-2xl  px-16 py-2 text-center trial hover:bg-indigo-200" to="/payment">Start free 7-day trial</Link>
+                    <div className="text-center md:my-4 my-8  ">
+                    <Link className="text-2xl px-10   md:px-16 py-2 text-center trial hover:bg-indigo-200" to="/payment">Start free 7-day trial</Link>
                     </div>
                 </footer>
 
