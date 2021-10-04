@@ -1,23 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
 
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './App.css';
+import About from './componenet/About/About';
+import Footer from './componenet/Footer/Footer';
+import Header from './componenet/Header/Header';
+import Home from './componenet/Home/Home';
+import NotFound from './componenet/NotFound/NotFound';
+import Services from './componenet/Services/Services';
+
+// " antialiased bg-gradient-to-r from-pink-300 via-purple-300 t antialiased bg-gradient-to-r from-pink-300 via-purple-300to-indigo-400"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-green-200">
+      {/* React Router */}
+        <Router>
+        <Header></Header>
+          <Switch>
+            <Route path="/services">
+              <Services></Services>
+            </Route>
+           <Route exact path="/home">
+             <Home></Home>
+           </Route>
+           <Route exact path="/">
+             <Home></Home>
+           </Route>
+           <Route exact path="/about">
+             <About></About>
+           </Route>
+           <Route exact path="*">
+             <NotFound></NotFound>
+           </Route>
+          </Switch>
+          <Footer></Footer>
+        </Router>
+        
     </div>
   );
 }

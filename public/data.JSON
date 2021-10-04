@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "header": "Maintain",
+    "head_title": "1 class a week",
+    "price": "€56",
+    "price_per_class": "€14/class",
+    "description": {
+      "point_1": "4 classes of 60-min each",
+      "point_2": "Pay every 4 weeks",
+      "point_3": "Cancel or change plan anytime"
+    }
+  },
+  {
+    "id": 2,
+    "header": "Improve",
+    "head_title": "3 classes a week",
+    "price": "€120",
+    "price_per_class": "€10/class",
+    "description": {
+      "point_1": "12 classes of 60-min each",
+      "point_2": "Pay every 4 weeks",
+      "point_3": "Cancel or change plan anytime"
+    }
+  },
+  {
+    "id": 3,
+    "header": "Improve a lot",
+    "head_title": "5 classes a week",
+    "price": "€170",
+    "price_per_class": "€8.5/class",
+    "description": {
+      "point_1": "20 classes of 60-min each",
+      "point_2": "Pay every 4 weeks",
+      "point_3": "Cancel or change plan anytime"
+    }
+  },
+  {
+    "id": 4,
+    "header": "Immersion",
+    "head_title": "10 classes a week",
+    "price": "€360",
+    "price_per_class": "€9/class",
+    "description": {
+      "point_1": "40 classes of 60-min each",
+      "point_2": "Pay every 4 weeks",
+      "point_3": "Cancel or change plan anytime"
+    }
+  },
+  {
+    "id": 5,
+    "header": "Basic",
+    "head_title": "10 classes a week",
+    "price": "€460",
+    "price_per_class": "€12/class",
+    "description": {
+      "point_1": "40 classes of 60-min each",
+      "point_2": "Pay every 4 weeks",
+      "point_3": "Cancel or change plan anytime"
+    }
+  },
+  {
+    "id": 6,
+    "header": "Easy Peasy",
+    "head_title": "1 classes a week",
+    "price": "€20",
+    "price_per_class": "€5/class",
+    "description": {
+      "point_1": "50 classes of 60-min each",
+      "point_2": "Pay every 4 weeks",
+      "point_3": "Cancel or change plan anytime"
+    }
+  },
+  {
+    "id": 7,
+    "header": "Business",
+    "head_title": "3 classes a week",
+    "price": "€60",
+    "price_per_class": "€7/class",
+    "description": {
+      "point_1": "45 classes of 60-min each",
+      "point_2": "Pay every 4 weeks",
+      "point_3": "Cancel or change plan anytime"
+    }
+  },
+  {
+    "id": 8,
+    "header": "For Travel",
+    "head_title": "5 classes a week",
+    "price": "€260",
+    "price_per_class": "€17/class",
+    "description": {
+      "point_1": "45 classes of 60-min each",
+      "point_2": "Pay every 4 weeks",
+      "point_3": "Cancel or change plan anytime"
+    }
+  }
+]

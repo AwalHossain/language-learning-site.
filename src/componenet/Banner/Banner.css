@@ -1,0 +1,17 @@
+.banner {
+  background-image: url("./img/banner.jpg");
+  width: auto;
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.total-width {
+  height: 480px;
+}
+.title {
+  position: relative;
+  bottom: 350px;
+  left: 250px;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 900;
+}
