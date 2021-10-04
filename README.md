@@ -1,9 +1,10 @@
 # Getting Started with duolingo
 
 Site Link: https://duolingo.netlify.app/
-1# This is a language learning site
-2# You can find here various type of language which you can learn easy and funny way
-3# We provide the best way to learn new language
+
+1#. This is a language learning site
+2#. You can find here various type of language which you can learn easy and funny way
+3#. We provide the best way to learn new language
 
 ## The reason why you will choose site
 
