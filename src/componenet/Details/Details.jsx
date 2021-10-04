@@ -46,10 +46,10 @@ const Details = (props) => {
 
                 <footer className="items-center  leading-none p-2 md:p-4">
                     <div className="my-8 text-center">
-                    <Link className="text-2xl bg-red-200 px-16 py-2 text-center monthly text-white" to="/payment">Choose your plan</Link>
+                    <Link className="text-2xl bg-red-200 px-16 py-2 text-center monthly text-white hover:bg-indigo-700" to="/payment">Choose your plan</Link>
                     </div>
                     <div className="text-center my-4">
-                    <Link className="text-2xl  px-16 py-2 text-center trial" to="/payment">Start free 7-day trial</Link>
+                    <Link className="text-2xl  px-16 py-2 text-center trial hover:bg-indigo-200" to="/payment">Start free 7-day trial</Link>
                     </div>
                 </footer>
 

@@ -35,7 +35,7 @@ const Header = () => {
                                 </li>
                                 <li>
                                     {/* <a className="md:p-4 py-2 block hover:text-purple-400 text-purple-500" href="/" >Sign Up</a > */}
-                                    <NavLink className="md:p-4 text-xl font-bold py-2 text-white block hover:text-black" to="/services" activeClassName="selected">Sign Up</NavLink>
+                                    <NavLink className="md:p-4 text-xl font-bold py-2 text-white block hover:text-black" to="/signup" activeClassName="selected">Sign Up</NavLink>
                                 </li>
                             </ul>
                         </div>

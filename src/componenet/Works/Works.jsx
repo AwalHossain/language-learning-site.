@@ -4,7 +4,7 @@ const Works = () => {
     return (
         <div>
         {/* How it work card  */}
-            <div className="md:flex m-3 justify-between mt-24 ">
+            <div className="md:flex m-3 justify-between mt-24 ml-16 ">
                 <div className="md:w-1/2 mr-6">
                     <img src="https://www.lingoda.com/wp-content/webp-express/webp-images/uploads/2021/01/630x410_Method-Hero_2x.jpg.webp" alt="" />
                 </div>

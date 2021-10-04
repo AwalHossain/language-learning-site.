@@ -6,13 +6,15 @@ import Footer from './componenet/Footer/Footer';
 import Header from './componenet/Header/Header';
 import Home from './componenet/Home/Home';
 import NotFound from './componenet/NotFound/NotFound';
+import Payment from './componenet/Payment/Payment';
 import Services from './componenet/Services/Services';
+import SignUp from './componenet/SignUp/SignUp';
 import Works from './componenet/Works/Works';
 
 // " antialiased bg-gradient-to-r from-pink-300 via-purple-300 t antialiased bg-gradient-to-r from-pink-300 via-purple-300to-indigo-400"
 function App() {
   return (
-    <div className="bg-green-200">
+    <div className="antialiased bg-gradient-to-r from-blue-500 via-green-300 t antialiased bg-gradient-to-r from-blue-200 via-red-300to-green-800">
       {/* React Router */}
         <Router>
         <Header></Header>
@@ -31,6 +33,12 @@ function App() {
            </Route>
            <Route path="/works">
              <Works></Works>
+           </Route>
+           <Route path="/payment">
+              <Payment></Payment>
+           </Route>
+           <Route path="/signup">
+             <SignUp></SignUp>
            </Route>
            <Route exact path="*">
              <NotFound></NotFound>
