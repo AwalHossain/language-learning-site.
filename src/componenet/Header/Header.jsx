@@ -31,7 +31,7 @@ const Header = () => {
                                 </li>
                                 <li>
                                     {/* <a className="md:p-4 py-2 block hover:text-purple-400" href="/"  >Blog</a > */}
-                                    <NavLink className="md:p-4 text-xl font-medium py-2 text-white block hover:text-black" to="/services" activeClassName="selected">How it works</NavLink>
+                                    <NavLink className="md:p-4 text-xl font-medium py-2 text-white block hover:text-black" to="/works" activeClassName="selected">How it works</NavLink>
                                 </li>
                                 <li>
                                     {/* <a className="md:p-4 py-2 block hover:text-purple-400 text-purple-500" href="/" >Sign Up</a > */}
