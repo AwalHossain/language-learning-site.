@@ -14,8 +14,8 @@ import Works from './componenet/Works/Works';
 //This is the Route components
 function App() {
   return (
-    <div className="antialiased bg-gradient-to-r from-blue-500 via-green-300 t antialiased bg-gradient-to-r from-blue-200 via-red-300to-green-800">
-      {/* React Router */}
+    <div className="">
+      {/* React Router using here*/}
         <Router>
         <Header></Header>
           <Switch>
@@ -46,7 +46,6 @@ function App() {
           </Switch>
           <Footer></Footer>
         </Router>
-        
     </div>
   );
 }

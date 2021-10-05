@@ -2,6 +2,7 @@ import React from 'react';
 import './NotFound.css'
 
 const NotFound = () => {
+    // Not found Component
     return (
         <div>
             <div className="text-center ml-96 tro">

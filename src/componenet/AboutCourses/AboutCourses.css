@@ -1,0 +1,9 @@
+.blue-bg {
+  background: linear-gradient(to right, rgb(29, 50, 149), rgb(5, 31, 78));
+}
+.card {
+  padding-left: 24px;
+  padding-right: 24px;
+  position: relative;
+  z-index: 5;
+}

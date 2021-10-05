@@ -2,6 +2,7 @@ import React from 'react';
 
 const Payment = () => {
   return (
+    // This is payment section
     <div>
       <div className="bg-gray-300">
     <div className="py-12">

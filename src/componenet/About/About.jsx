@@ -3,14 +3,14 @@ import './About.css'
 const About = () => {
     return (
         // About Us 
-        
+        // This is component is all about how lingua works
             <div>
                 <div className="md:flex justify-center my-6">
                 <div className=" mx-4  py-4 px-8 ">
                     <div>
                         <img className="img" src=" https://www.lingoda.com/wp-content/uploads/2021/01/210107_method-page-illus_final_vv.svg" alt="" />
                     </div>
-                    <div>
+                    <div className="text-center">
                         <h2 className="text-2xl my-2">We are givining you Real-life examples</h2>
                         <p>Our lessons are filled with easy to learn examples from real-life situations, which can be applied from day 1.</p>
                     </div>
@@ -19,21 +19,21 @@ const About = () => {
                     <div>
                         <img className="img" src=" https://www.lingoda.com/wp-content/uploads/2021/02/210224_method-page-illus_final_illustraion_2_EN.svg" alt="" />
                     </div>
-                    <div>
+                    <div  className="text-center">
                         <h2 className="text-2xl my-2">Real-life topics</h2>
                         <p>Our topics are action-oriented and based on everyday situations so that you’re always learning relevant vocabulary..</p>
                     </div>
                     </div>
                     <div  className=" mx-4  py-4 px-8">
-                    <div>
+                    <div  className="text-center">
                         <img className="img" src=" https://www.lingoda.com/wp-content/uploads/2021/01/210107_method-page-illus_final_illustraion_3.svg" alt="" />
                     </div>
-                    <div>
+                    <div  className="text-center">
                         <h2 className="text-2xl my-2">Real-life language</h2>
                         <p>Our focus is on teaching you natural sounding language that will help you communicate easily with locals.</p>
                     </div>
                     </div>
-                    
+                    {/* End Point */}
                 </div>
                
            {/* Testimonial  Card start point */} 

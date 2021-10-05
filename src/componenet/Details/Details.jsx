@@ -3,17 +3,17 @@ import { Link } from 'react-router-dom';
 import './Details.css'
 const Details = (props) => {
     const {header, head_title, description,price,price_per_class } = props.info 
-    console.log(props)
     return (
-        <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2 wid p-8">
-
+        // Product price card detail are availabel hee
+        <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-2 lg:w-1/4  p-8 ">
             {/* <!-- Article --> */}
-            <article className="overflow-hidden rounded-lg shadow-lg bg-white">
+            <article className="overflow-hidden rounded-lg shadow-xl bg-white">
                 <div className="text-center">
                     <h1 className="text-4xl text-center my-3">{header}</h1>
                     <h2 className="text-xl ">{head_title}</h2>
                 </div>
                 <div >
+                    {/* Different kind of flag svg file start point */}
                 <span className="text-center flex justify-around  my-3">
                     <svg  width="56" height="56" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg"><g clipPath="url(#germany-flag)"><path d="M1.742 37.74C5.698 48.4 15.96 56 28 56s22.302-7.599 26.258-18.26L28 35.303 1.742 37.74z" fill="#F2C55D"></path><path d="M28 0C15.961 0 5.698 7.598 1.742 18.26L28 20.697l26.258-2.435C50.302 7.599 40.04 0 28 0z"></path><path d="M1.742 18.26A27.94 27.94 0 000 28c0 3.425.616 6.706 1.742 9.74h52.517A27.94 27.94 0 0056 28c0-3.425-.616-6.706-1.742-9.74H1.742z" fill="#E74A3F"></path><path d="M55.5 28c0 15.188-12.312 27.5-27.5 27.5S.5 43.188.5 28 12.812.5 28 .5 55.5 12.812 55.5 28z" stroke="#000" strokeOpacity=".1" fill="none"></path></g><defs><clipPath id="germany-flag"><path fill="#fff" d="M0 0h56v56H0z"></path></clipPath></defs></svg>
                     <svg width="56" height="56" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg"><path d="M28 56c15.464 0 28-12.536 28-28S43.464 0 28 0 0 12.536 0 28s12.536 28 28 28z" fill="#fff"></path><path d="M28 40.174c6.724 0 12.174-5.45 12.174-12.174 0-6.723-5.45-12.174-12.174-12.174-6.723 0-12.174 5.45-12.174 12.174 0 6.723 5.45 12.174 12.174 12.174z" fill="#E74A3F"></path><path d="M55.5 28c0 15.188-12.312 27.5-27.5 27.5S.5 43.188.5 28 12.812.5 28 .5 55.5 12.812 55.5 28z" stroke="#000" strokeOpacity=".1" fill="none"></path></svg>
@@ -25,8 +25,9 @@ const Details = (props) => {
                     
                     </span>
                 </div>
-
+  {/* Different kind of flag svg file end point */}
                 <div className="items-center text-center leading-tight p-2 md:p-4 mb-4">
+                {/* Product price and details */}
                 <p className="text-4xl">{price}</p>
                 <p className="text-xl">{price_per_class}</p>
                 </div>
@@ -39,23 +40,19 @@ const Details = (props) => {
                     <div><p className="text-lg px-2 py-2"><span><i className="fas fa-check mr-2"></i></span>{description.point_2} </p></div>
                     <div><p className="text-lg px-2"> <span><i className="fas fa-check mr-2"></i></span>{description.point_3}</p></div>
                     </div>
-                    {/* <hr /> */}
-                    
-
                 </article>
-
+                {/* Two button for buying purpose */}
                 <footer className="items-center  leading-none p-2 md:p-4">
                     <div className="my-8 text-center">
-                    <Link className="text-2xl bg-red-200 px-16 py-2 text-center monthly text-white hover:bg-indigo-700" to="/payment">Choose your plan</Link>
+                    <Link className="text-xl bg-red-200 px-6 py-2 text-center monthly text-white hover:bg-indigo-700" to="/payment">Choose your plan</Link>
                     </div>
-                    <div className="text-center md:my-4 my-8  ">
-                    <Link className="text-2xl px-10   md:px-16 py-2 text-center trial hover:bg-indigo-200" to="/payment">Start free 7-day trial</Link>
+                    <div className="text-center p-0 md:my-4 my-8  ">
+                    <Link className="text-xl p-0   md:px-3 py-2 text-center trial hover:bg-indigo-200" to="/payment">Start free 7-day trial</Link>
                     </div>
                 </footer>
 
             </article>
             {/* <!-- END Article --> */}
-
         </div>
     );
 };
